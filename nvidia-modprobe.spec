@@ -1,5 +1,5 @@
 Name:           nvidia-modprobe
-Version:        375.20
+Version:        375.26
 Release:        1%{?dist}
 Summary:        NVIDIA kernel module loader
 
@@ -36,6 +36,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Fri Feb 17 2017 Jajauma's Packages <jajauma@yandex.ru> - 375.26-1
+- Update to latest upstream release
+
 * Sun Nov 27 2016 Jajauma's Packages <jajauma@yandex.ru> - 375.20-1
 - Update to latest upstream release
 
